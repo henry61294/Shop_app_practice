@@ -1,0 +1,13 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "venv/bin/python",
+    "python.linting.pylintPath": "venv/bin/pylint",
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_flask_sqlalchemy, pylint_flask",
+        "--init-hook",
+        "import sys; sys.path.insert(0, '/path/to/root/of/current/project')"
+        ],
+}
